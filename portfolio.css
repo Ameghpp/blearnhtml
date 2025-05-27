@@ -1,0 +1,38 @@
+body{
+    background-color: lightgrey;
+}
+#aboutme{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    text-align: center;
+    font-weight: 900;
+
+}
+.headerclass{
+    background-color:lightblue;
+    color: black;
+    
+    font-weight: 600;
+}
+.articleclass{
+    background-color: lightblue;
+    color: black;
+    font-weight: 500;
+}
+.asideclass{
+    background-color: lightblue;
+    color:black;
+    font-weight: 500;
+}
+.footerclass{
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-weight: 500;
+}
+.contact{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: white;
+
+}

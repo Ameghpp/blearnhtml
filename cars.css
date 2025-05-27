@@ -1,0 +1,110 @@
+
+.heading1{
+    color:black;
+    font-size: 50px;
+    text-decoration: black;
+    text-decoration: solid;
+    padding: 0%;
+    margin: 0%;
+    text-align: center;
+    text-shadow: rgb(242, 246, 247) 1px 1px 2px;
+
+
+}
+.bmw{
+
+    background-color: lightblue;
+    border-radius: 15px;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.Benz{
+    background-color: lightgrey;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+     margin-bottom: 15px;
+     margin-top: 15px;
+}
+.last{
+    text-align: right;
+}
+.bmw_heading{
+color:black;
+margin-bottom: 10px;
+font-size: x-large;
+
+margin-top: 10px;
+margin-bottom: 20px;
+font-size: x-large;
+
+}
+.benz_heading{
+    margin-bottom: 10px;
+    font-size: x-large;
+    
+
+
+}.audi_heading{
+    margin-bottom: 10px;
+    font-size: x-large;
+}
+.audi{
+   background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+     margin-bottom: 15px;
+      margin-top: 15px;
+
+}
+.audi_para{
+    color: black;
+    padding: 10px;
+}
+.bmw_para{
+    color: black;
+    padding: 10px;
+}
+.benz_para{
+    color: black;
+    padding: 10px;
+} .ferrari_heading{
+    margin-bottom: 10px;
+    font-size: x-large;
+}.ferrari{
+    background-color:rgb(212, 74, 74);
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+     margin-bottom: 15px;
+      margin-top: 15px;
+}.ferrari_para{
+    color: black;
+    padding: 10px;
+}.lamborgini{
+    background-color:linen;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+        margin-bottom: 15px;
+         margin-top: 15px;
+}.lamborgini_heading{
+    margin-bottom: 10px;
+    font-size: x-large;
+}.lamborgini_para{
+    color: black;
+    padding: 10px;
+}
+.header{
+    text-align: center;
+
+}.logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}

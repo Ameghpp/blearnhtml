@@ -1,0 +1,29 @@
+.box1{
+    background-color: lightskyblue;
+    color: blanchedalmond;
+    margin:30px;
+    padding: 15px;
+    border: 5px solid black;
+    border-radius: 30px;
+
+}
+.box2{
+     background-color: lightskyblue;
+    color: blanchedalmond;
+    margin-right: 30px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    border-radius: 30px;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+}
+.box3{
+    background-color: lightskyblue;
+    color: blanchedalmond;
+}

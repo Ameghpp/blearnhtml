@@ -1,0 +1,23 @@
+#box1{
+    background-color: red;
+    text-align: center;
+}
+.box2{
+    font-weight: bolder;
+    color:#12dd48
+}
+.box3{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+
+}
+.box4{font-size: 14px;
+    color:rgb(0, 139, 42);
+
+}
+.box5{
+    text-decoration: underline;
+    text-align: right;
+    
+
+}

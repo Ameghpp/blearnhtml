@@ -1,0 +1,51 @@
+.header{
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    color: black;
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.header_nav{
+    
+    padding: 17px;
+    text-align: center;
+    background-color: whitesmoke;
+    color: white;
+
+}
+.header_nav a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+.modric{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.ducati{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}.urus{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}.f{
+    text-align: end;
+}
+
+    
