@@ -1,0 +1,24 @@
+.example1{
+ background-color: white;
+ background-image: url(modri.png);
+ background-repeat: no-repeat;  
+ background-size: contain;
+ opacity: 0.7;
+}
+.example2{
+    background-color: white;
+    color: white;
+    background-image: url(ducati.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.example3{
+    background-color: white;
+    color: black;
+    background-image: url(urus.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    opacity: 0.7;
+}
