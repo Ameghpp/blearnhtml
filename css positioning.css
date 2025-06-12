@@ -1,0 +1,41 @@
+.box1{
+    background-image: url(ferrari.png);
+    position: static;
+    background-repeat: repeat;
+    background-size:contain;
+    background-color: antiquewhite;
+}
+.box2{
+    background-image: url(ferrari.png);
+    background-repeat: repeat;
+    background-size:contain;
+    background-color:bisque;
+    position: relative;
+    top: 20px;
+    left: 100px;
+}
+.box3{
+    background-image: url(ferrari.png);
+    background-repeat: repeat;
+    background-size:contain;
+    background-color:azure;
+    position: Fixed;
+    top: 20px;
+    left: 20px;
+}
+.box4{
+    position:sticky;
+    top: 1px;
+
+}.box5{
+    background-image: url(ferrari.png);
+    background-repeat: repeat;
+    background-size:contain;
+    background-color:lightblue;
+    position: relative;
+    top: 10px;
+    left: 100px;
+
+}
+
+

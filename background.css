@@ -21,4 +21,5 @@
     background-position: right;
     background-size: contain;
     opacity: 0.7;
+   background-clip: content-box;
 }
