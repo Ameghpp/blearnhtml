@@ -1,0 +1,38 @@
+.box{
+    height: 550px;
+    width: 400px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: blanchedalmond;
+    color: black;
+}
+.box img{
+    height: 300px;
+    width: 400px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+.navbar{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    list-style: none;
+    padding: 10px;
+    margin: 0px;
+    color: black;
+}
+nav a{
+    margin: 0 15px;
+    color: black;
+}
+.section{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+    object-fit: cover;
+}
+header{
+    background-color: blanchedalmond;
+    padding: 4px;
+    color: black;
+}

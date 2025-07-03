@@ -1,0 +1,38 @@
+body{
+    margin: 0px;
+    background-color:rgb(189, 228, 240);
+}
+.main_line{
+    text-align: center;
+}
+.sec_line{ 
+    padding: 0px;
+    margin-top: 0px;
+}
+.sec_line input{
+    margin: 10px;
+    width: 300px;
+    height: 40px;
+    border-radius: 8px;
+}
+button{
+    margin: 20px;
+    height: 40px;
+    border-radius: 8px;
+    color: black;
+    background-color: white;
+    width: 100px;
+}
+.main_line p{
+    color: white;
+    font-size: x-large;
+    font-weight:100;
+    font-family: 'Times New Roman', Times, serif;
+}
+.main_line h6{
+    margin-top: 0px;
+    color:blue;
+    font-size: x-large;
+    font-weight:100;
+    font-family: 'Times New Roman', Times, serif;
+}

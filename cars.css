@@ -108,3 +108,26 @@ font-size: x-large;
     border-radius: 50%;
     margin-bottom: 20px;
 }
+@media (max-width:450px) {
+    .bmw{
+        background-color: bisque;
+
+    }
+    .audi{
+        background-color: bisque;
+
+    }
+    .ferrari{
+        background-color: bisque;
+
+    }
+    .lamborgini{
+        background-color: bisque;
+
+    }
+    .Benz{
+        background-color: bisque;
+
+    }
+    
+}

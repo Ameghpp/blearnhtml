@@ -74,5 +74,11 @@
 .urus_img{
     text-align: center;
 }
+@media (max-width:450px) {
+    img{
+        height: auto;
+        width: 100%;
+    }  
+}
 
     

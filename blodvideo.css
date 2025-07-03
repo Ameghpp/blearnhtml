@@ -70,3 +70,7 @@
 .urus_vid{
     text-align: center;
 }
+.modric_vid{
+    display: flex;
+    flex-wrap: wrap;
+}
