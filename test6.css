@@ -1,0 +1,155 @@
+body{
+    margin: 0px;
+    background-image: url(image\ copy\ 55.png);
+}
+.cont{
+    display: flex;
+    color:rgb(95, 1, 95);
+    gap: 20rem;
+    margin-left: 80px;
+}
+.cont_1 h1{
+    font-size: 60px;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    animation: fadeUp 1.5s ease-out 1s forwards;
+    text-align: center;
+    margin-top: 100px;
+    opacity: 0;
+}
+.cont_1 h1:hover{
+    scale: 1.2;
+    color:rgb(121, 9, 121);
+    transition: ease-in-out 0.5s;
+}
+.cont_1 p{
+    font-size:larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    animation: fadeUpx 3s ease-in-out 1.5s forwards;
+    opacity: 0;
+}
+.cont_2{
+    margin-top: 100px;
+    width: 500px;
+}
+.rev_1,.rev_2,.rev_3{
+    display: flex;
+    gap: 2rem;
+    border-radius: 10px;
+    font-size: large;
+    animation: review 2s ease-in-out 1s forwards;
+    opacity: 0;
+}
+.rev_1:hover{
+    scale: 1.2;
+    transition: ease 1s;
+}
+.rev_2:hover{
+    scale: 1.2;
+    transition: ease 1s;
+}
+.rev_3:hover{
+    scale: 1.2;
+    transition: ease 1s;
+}
+.rev_1{
+    margin-left: -180px;
+    padding-left: 30px;
+}
+.rev_2{
+    margin-top: 20px;
+    margin-left: -140px;
+    padding-left: 10px;
+}
+.rev_3{
+    margin-top: 20px;
+    margin-left: -100px;
+    padding-left: 2px;
+}
+.sqr{
+    display: flex;
+    gap: 2rem;
+    margin-top: 80px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+article{
+    background-color:rgb(95, 1, 95);
+    color: white;
+    border-radius: 8px;
+    padding: 8px;
+    animation: popup 1.5s ease-out 1s forwards;
+    opacity: 0;
+}
+article:hover{
+    color: black;
+    background-color:rgb(255, 241, 255);
+}
+.box img{
+    width: 60px;
+    height:60px;
+    border-radius: 50%;
+}
+.box img:hover{
+    scale: 1.8;
+    transition: ease 2s;
+    border-radius: 20%;
+
+}
+.box{
+    display: flex;
+    padding: 8px;
+}
+.box_1{
+    padding: 4px;
+    margin-top: -30px;
+}
+.box_1 p{
+    font-family:'Times New Roman', Times, serif;
+    color:violet;
+    margin-top: -40px;
+}
+.box_1 h6{
+    font-weight: 600;
+    font-size: medium;
+    font-family:Arial, Helvetica, sans-serif;
+}
+@keyframes popup{
+    0% {
+        opacity: 0;
+        transform: scale(0.4);
+      }
+      100% {
+        opacity: 1;
+        transform: scale(1);
+      }
+}
+@keyframes fadeUp {
+    from{
+        transform: translateY(40px);
+    }
+      to {
+        opacity: 1;
+        transform: translateY(10px);
+      }
+    }
+@keyframes fadeUpx {
+    from{
+        transform: translateZ(100px);
+    }
+      to {
+        opacity: 1;
+        transform: translateZ(500px);
+      }
+ }
+@keyframes review {
+    from{
+        opacity: 0;
+        transform: translateX(500px);
+    }
+      to {
+        opacity: 1;
+        transform: translateX(10px);
+      }
+    }
+

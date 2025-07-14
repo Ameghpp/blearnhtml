@@ -1,0 +1,31 @@
+body{
+    margin: 10px;
+    background-color: aqua;
+}
+section{
+  align-items: center;
+}
+div{
+    height: 200px;
+    width: 600px;
+    background-color: aliceblue;
+    margin: 10px;
+    text-align: center;
+    /* animation: expand 0.8s ease-in-out 0.5s infinite ; */
+    padding-top: 100px;
+    align-items: center;
+    /* transition: background-color 2s ease-in-out; */
+    
+}
+div:hover{
+    /* animation-play-state: paused; */
+    background-color: burlywood;
+}
+@keyframes expand{
+    from{
+        width: 600px;
+    }
+    to{
+        width: 900px;
+    }
+}
