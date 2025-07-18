@@ -1,0 +1,124 @@
+body {
+    background-color: #0f1424;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    min-height: 100vh;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 4rem;
+}
+.col-2,.col-3,.col-4{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.profile-card {
+    grid-row: span 2;
+    background-color: #5746ea;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1.5rem;
+    width: 283px;
+}
+.profile-info {
+    display: flex;
+    width: 250px;
+    align-items: center;
+    gap: 1rem;
+}
+.profile-info img {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    border: 3px solid white;
+}
+.profile-info p {
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+.profile-info p:hover{
+    font-size: 2rem;
+}
+
+.profile-info h1 {
+    font-size: 1.5rem;
+}
+.time-toggle {
+    height: 160px;
+    width: 285px;
+    margin-left: -25px;
+    margin-bottom: -25px;
+    background-color: #1c1f4a;
+    padding: 1rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    border-radius: 15px 15px 15px 15px;
+}
+.card-bg {
+    height: 60px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px 10px 0 0;
+}
+.card-content {
+    background-color: #1c1f4a;
+    padding: 1.5rem;
+    border-radius: 15px 15px 15px 15px;
+    position: relative;
+    top: -10px;
+}
+.card-content .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-content h2 {
+    font-size: 2rem;
+    margin: 0.5rem 0;
+}
+.card-content p {
+    font-size: 0.9rem;
+}
+.work .card-bg {
+    background-color: #ff8b64;
+}
+
+.play .card-bg {
+    background-color: #55c2e6;
+}
+
+.study .card-bg {
+    background-color: #ff5c7c;
+}
+
+.exercise .card-bg {
+    background-color: #4acf81;
+}
+
+.social .card-bg {
+    background-color: #7335d2;
+}
+
+.self-care .card-bg {
+    background-color: #f1c75b;
+}
+.col-1{
+   padding-top: 90px;
+}
+
+
+
+
+
+
+
+
+

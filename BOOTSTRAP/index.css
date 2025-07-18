@@ -1,0 +1,19 @@
+body{
+    background-color: white;
+}
+.container-sm{
+    background-color: aqua;
+}
+.container-md{
+    background-color: blue;
+}
+.container-lg{
+    background-color:green;
+}
+.container-xl{
+    background-color:violet;
+}
+.container-xxl{
+    background-color: red;
+}
+
