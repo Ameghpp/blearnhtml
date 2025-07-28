@@ -13,24 +13,7 @@ body {
     align-items: center;
     font-family: 'Segoe UI', sans-serif;
     height: 100vh;
-
-
-
-
-
 }
-.container {
-    background-color: #fff;
-    display: flex;
-    border-radius: 20px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    width: 700px;
-    max-width: 95%;
-
-
-}
-
 .result-card {
     display: flex;
     background: #fff;
