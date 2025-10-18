@@ -1,0 +1,15 @@
+#clock {
+    color:green;
+    font-size: 100px;
+    text-shadow: 0 0 20px greenyellow;
+    letter-spacing: 3px;
+    display: flex;
+}
+body{
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+    
+
+}
